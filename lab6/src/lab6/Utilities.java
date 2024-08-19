@@ -110,7 +110,7 @@ public class Utilities {
                     zigzag = temp;
                 }
             } else {
-                for (int j = twoDimArray.length - 1; j >= 0; j--) {
+                for (int j = twoDimArray[i].length - 1; j >= 0; j--) {
                     int[] temp = new int[zigzag.length + 1];
                     for (int k = 0; k < zigzag.length; k++) {
                         temp[k] = zigzag[k];
